@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: "fontCrash";
+}
+
+@font-face {
+    font-family: "fontCrash";
+    src: url(crash-a-like.ttf);
+}
+
+body {
+    background-image: url(assets/Background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
