@@ -56,6 +56,7 @@ body {
     img {
         position: relative;
         width: 400px;
+        animation-iteration-count: infinite;
     }
 }
 
@@ -70,6 +71,7 @@ body {
     margin-bottom: 40px;
     img {
         width: 290px;
+        animation-iteration-count: infinite;
     }
 }
 footer {
@@ -85,4 +87,3 @@ footer {
         }
     } 
 }
-
