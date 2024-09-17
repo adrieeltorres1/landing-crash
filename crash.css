@@ -19,24 +19,29 @@ body {
     height: 100vh;
 }
 .menu {
-    width: 400px;
-    height: 270px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    width: 280px;
+    height: 280px;
     margin-left: 150px;
     margin-top: 40px;
     border: 2px solid black;
     #li-1 {
         color: white;
         font-size: 65px;
+       
     }
     #li-2 {
         color: orange;
         font-size: 55px;
-        margin-left: 25px;
+        
     }
     #li-3 {
         color: orange;
         font-size: 60px;
-        margin-left: px;
+        
     }
     #li-4 {
         color: rgb(255, 255, 150);
@@ -45,7 +50,7 @@ body {
     #li-5 {
         color: whitesmoke;
         font-size: 35px;
-        margin-left: 40px;
+    
     }
 }
 
@@ -98,5 +103,28 @@ li:hover{
 }
 #li-2::after{
     font-size:  70px;
+    color: red;
+}
+
+
+/* Estolização das li's */
+#li-1:hover{
+    font-size: 80px;
+    color: red;
+}
+#li-2:hover{
+    font-size: 80px;
+    color: red;
+}
+#li-3:hover{
+    font-size: 80px;
+    color: red;
+}
+#li-4:hover{
+    font-size: 50px;
+    color: red;
+}
+#li-5:hover{
+    font-size: 60px;
     color: red;
 }
